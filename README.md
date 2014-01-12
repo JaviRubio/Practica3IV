@@ -28,56 +28,56 @@ https://code.google.com/p/android-x86/downloads/detail?name=android-x86-4.3-2013
 
 En virtualbox crearemos una maquina virtual basada en Linux generico con kernel 2.6/3 o superior de 32 bits:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m1.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m1.PNG">
 
 Luego le asignaremos la memoria mencionada anteriormente:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m2.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m2.PNG">
 
 Para el disco usaremos 8 gigas, que ademas es el valor que virtualbox te sugiere por defecto:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m3.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m3.PNG">
 
 En cuanto el tipo de disco duro podemos escoger el que queramos,en nuestro caso usaremos el por defecto:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m4.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m4.PNG">
 
 Para la reserva nosotros vamos a escoger dinamica, si bien una fija deberia tener ligeramente mas rendimiento a cambio de usar todo el espacio asignado de inicio:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m5.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m5.PNG">
 
 En cuanto a nombre para el disco podemos dejar el por defecto:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m6.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m6.PNG">
 
 Llegados a este punto ya tenemos la maquina configurada. Ahora tenemos que añadir la iso descargada a la maquina, como hacemos usualmente. Luego ya podemos arrancar la maquina normalmente, encontrandonos con la siguiente pantalla.
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m7.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m7.PNG">
 
 Aqui tenemos la opcion de arrancar un live, que funciona perfectamente, con el unico inconveniente de que al no tener persistencia cada vez que lo arranque nos pedira toda la configuracion inicial. Nosotros vamos a escoger la instalacion.
 La instación es bastante sencilla. Lo unico mas delicado es el tema de las particiones, que realmente es lo unico por lo que nos va a preguntar el instalador:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m8.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m8.PNG">
 
 Para configurar la particiones nos da cfdisk, herramienta clasica de linux:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m9.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m9.PNG">
 
 Luego nos pregunta si queremos queremos que la carpeta de sistema tambien sea de escritura. Esto seria similar a tener un terminal rooteado:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m10.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m10.PNG">
 
 Yo solo nos queda esperar a que se instale:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m11.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m11.PNG">
 
 Y con eso finaliza la instalación, y nos preguntara si queremos reiniciar o arrancar directamente:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m12.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m12.PNG">
 
 Y ya podemos arrancar normalmente android:
 
-<img src="https://github.com/JaviRubio/Practica3IV/blob/master/Practica3/m13.PNG">
+<img src="https://raw2.github.com/JaviRubio/Practica3IV/master/Practica3/m13.PNG">
 
 ###Bugs conocidos###
 
