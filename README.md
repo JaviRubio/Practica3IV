@@ -113,7 +113,7 @@ Configuracion 2:
 
 <img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchPC1.PNG">
 
-<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchPC2.PNG.PNG">
+<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchPC2.PNG">
 
 Smartphone:
 
@@ -125,7 +125,7 @@ Smartphone:
 
 Como se puede apreciar en los resultados, la maquina virtual es considerablemente mas potente que cualquier smartphone existente en el mercado actualmente, y de lejos mucho mas potente que el emulador integrado en el SDK de android. No obstante tenemos que señalar que la imagen probada aun tiene ciertas incompatibilidades, por lo que aun pudiendo sustituir al emulador integrado, sigue siendo mejor usar un dispositivo real.
 
-Ademas, en cuanto a configuracion de la maquina virtual podemos apreciar que las pruebas arrojan los mismos valores. Esto se debe a que los factores que hemos modificado en la configuracion de la maquina virtual no producen cuellos de botella en las ejecuciones.
+Ademas, en cuanto a configuracion de la maquina virtual podemos apreciar que las pruebas arrojan valores similares. Esto se debe a que los factores que hemos modificado en la configuracion de la maquina virtual no producen cuellos de botella en las ejecuciones.
 
 
 
