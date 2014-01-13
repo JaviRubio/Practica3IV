@@ -4,21 +4,29 @@
 
 ###Elección de maquina:###
 
-Para esta practica vamos a virtualizar un sistema Android(version Jellybean 4.3) bajo virtualbox, lo cual puede servir para ayudar a desarrollar aplicaciones para android usando la maquina como entorno de pruebas, ya que el emulador que trae el SDK de Android esta mal optimizado, ya que usa la version ARM y lo que hace es ir traduciendo las instrucciones ARM a x86, lo que provoca un rendimiento bajisimo.
+Para esta practica vamos a virtualizar un sistema Android(version Jellybean 4.3) bajo virtualbox, lo cual puede servir para ayudar a desarrollar aplicaciones para android usando la maquina como entorno de pruebas, ya que el emulador que trae el SDK de Android esta mal optimizado, ya que usa la version ARM y lo que hace es ir traduciendo las instrucciones ARM a x86, lo que provoca un rendimiento bajisimo. Ademas vamos a comparar el rendimiento de la maquina virtual con un dispositvo real.
 
-Ademas tambien nos puede servir como sustituo de un smartphone en caso de necesidad, o simplemente como mera curiosidad
 
 ###Hardware###
 
-Para virtualizar Android he aplicado la siguiente configuracion:
+Para la maquina virtual se va a explorar dos configuraciones:
 
-CPU:2 nucleos
+1)
+Procesador:1 Nucleo
+Memoria:1Gb de ram
 
-Ram:2048
+2)
+Procesador:2 Nucleos
+Memoria:2Gb de ram
 
-HD:8 gigas
+Maquina anfitriona:
 
-Si bien con 1 nucleo y 512 megas de RAM deberia ir bien. Pero he optado por esa configuración para intentar optimizar el rendimiento de la maquina, ya que la configuración hardware de mi maquina(8 nucleos y 16 gigas de RAM) me permite asignar recursos extra. En cuanto al disco le podemos asignar la cantidad que queramos, ya que Android esta pensando para moviles y consume muy poco espacio. En nuestro caso le vamos a asignar 8, intentando emular la caracteristicas hardware de un movil de gama media/alta.(Nexus 4 por ejemplo)
+Procesador:Intel core i7 3630qm
+Memoria:16Gb DDR3
+
+Smartphone:
+
+Nexus 4 con Android Kitkat 4.4.2 y con maquina virtual para Java Dalvik de Motorola.
 
 ###Instalacion###
 
@@ -84,6 +92,43 @@ Y ya podemos arrancar normalmente android:
 Esta version de Android x86 virtualizado tiene un par de detalles que debemos tener en cuenta. Como notaremos nada mas arrancar no hay cursor para el raton, auqneu el raton funciona perfectamente. Esto es un problema de compatibilidad con la integracion de raton con virtualbox. Si la descativamos pasa a funcionar correctamente.
 
 Por motivos de compatibilidad se recomienda que usamos para hardware de sonido el Blaster16.
+
+###Benchmark###
+
+Para cada configuracion vamos a ejecutar dos benchmarks:
+
+-Qualcomm Vellamo
+
+-CPU Prime Benchmark
+
+Estos son los resultados:
+
+Configuracion 1:
+
+<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchPC3.PNG">
+
+<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchPC4.PNG">
+
+Configuracion 2:
+
+<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchPC1.PNG">
+
+<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchPC2.PNG.PNG">
+
+Smartphone:
+
+<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchN4-1.png">
+
+<img src="https://dl.dropboxusercontent.com/u/14147051/Practica3/benchN4-2.png">
+
+###Conclusiones###
+
+Como se puede apreciar en los resultados, la maquina virtual es considerablemente mas potente que cualquier smartphone existente en el mercado actualmente, y de lejos mucho mas potente que el emulador integrado en el SDK de android. No obstante tenemos que señalar que la imagen probada aun tiene ciertas incompatibilidades, por lo que aun pudiendo sustituir al emulador integrado, sigue siendo mejor usar un dispositivo real.
+
+Ademas, en cuanto a configuracion de la maquina virtual podemos apreciar que las pruebas arrojan los mismos valores. Esto se debe a que los factores que hemos modificado en la configuracion de la maquina virtual no producen cuellos de botella en las ejecuciones.
+
+
+
 
 
 
